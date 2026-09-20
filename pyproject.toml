@@ -1,0 +1,19 @@
+[project]
+name = "ytu"
+version = "2.0.0"
+description = "A colourful terminal YouTube picker with mpv quality presets."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []
+keywords = ["youtube", "mpv", "yt-dlp", "tui", "cli"]
+
+[project.scripts]
+ytu = "ytu.cli:main"
+
+[tool.setuptools]
+packages = ["ytu"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

@@ -1,6 +1,6 @@
 # ytu 2.0
 
-A compact, colourful terminal picker for YouTube. `ytu` searches with
+A compact, terminal picker for YouTube. `ytu` searches with
 `yt-dlp`, shows a numbered TUI list, and streams the selected result through
 `mpv`. It does not download the whole video first.
 
